@@ -602,7 +602,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_1.alpha = 0.1992;
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(24).to({_off:false},0).to({y:54.95,alpha:1},22,cjs.Ease.quintOut).wait(122));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(47).to({_off:false},0).to({y:54.95,alpha:1},22,cjs.Ease.quintOut).wait(99));
 
 	// BODY
 	this.instance_2 = new lib.BODY();
@@ -610,13 +610,13 @@ if (reversed == null) { reversed = false; }
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(47).to({_off:false},0).to({alpha:1},12).wait(109));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(70).to({_off:false},0).to({alpha:1},12).wait(86));
 
 	// CTA
 	this.instance_3 = new lib.CTA();
 	this.instance_3.setTransform(658,69);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(95).to({scaleX:1.15,scaleY:1.15,x:657.95,y:68.95},4).to({scaleX:1,scaleY:1,x:658,y:69},12,cjs.Ease.quintOut).wait(57));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(118).to({scaleX:1.15,scaleY:1.15,x:657.95,y:68.95},4).to({scaleX:1,scaleY:1,x:658,y:69},12,cjs.Ease.quintOut).wait(34));
 
 	// BKGD
 	this.instance_4 = new lib.RTDDisplayCAN728x90();
